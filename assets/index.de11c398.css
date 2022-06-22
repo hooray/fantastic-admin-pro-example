@@ -1,0 +1,11 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.netlify.app
+ * 代码仓库
+ * Gitee  https://gitee.com/hooray/fantastic-admin
+ * Github https://github.com/hooray/fantastic-admin
+ */
+    
+.el-badge{--el-badge-bg-color:var(--el-color-danger);--el-badge-radius:10px;--el-badge-font-size:12px;--el-badge-padding:6px;--el-badge-size:18px;position:relative;vertical-align:middle;display:inline-block}.el-badge__content{background-color:var(--el-badge-bg-color);border-radius:var(--el-badge-radius);color:var(--el-color-white);display:inline-flex;justify-content:center;align-items:center;font-size:var(--el-badge-font-size);height:var(--el-badge-size);padding:0 var(--el-badge-padding);white-space:nowrap;border:1px solid var(--el-bg-color)}.el-badge__content.is-fixed{position:absolute;top:0;right:calc(1px + var(--el-badge-size)/ 2);transform:translateY(-50%) translate(100%)}.el-badge__content.is-fixed.is-dot{right:5px}.el-badge__content.is-dot{height:8px;width:8px;padding:0;right:0;border-radius:50%}.el-badge__content--primary{background-color:var(--el-color-primary)}.el-badge__content--success{background-color:var(--el-color-success)}.el-badge__content--warning{background-color:var(--el-color-warning)}.el-badge__content--info{background-color:var(--el-color-info)}.el-badge__content--danger{background-color:var(--el-color-danger)}.tools[data-v-5d56f206]{display:flex;align-items:center;padding:0 20px;white-space:nowrap}.tools .buttons[data-v-5d56f206]{margin-right:20px}.tools .buttons .item[data-v-5d56f206]{display:inline-flex;align-items:center;justify-content:center;height:26px;width:34px;cursor:pointer;vertical-align:middle}.tools .buttons .item .el-icon[data-v-5d56f206]{color:var(--el-text-color-primary);transition:var(--el-transition-color)}.tools .buttons .item .el-badge[data-v-5d56f206]{display:flex;align-items:center}.tools[data-v-5d56f206] .language-container{font-size:16px}.tools[data-v-5d56f206] .user-container{display:inline-block;height:24px;line-height:24px;cursor:pointer}.tools[data-v-5d56f206] .user-container .user-wrapper .el-avatar{vertical-align:middle;margin-top:-2px;margin-right:4px}
