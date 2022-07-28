@@ -1,0 +1,11 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.netlify.app
+ * 代码仓库
+ * Gitee  https://gitee.com/hooray/fantastic-admin
+ * Github https://github.com/hooray/fantastic-admin
+ */
+    
+.topbar-container[data-v-fe61fce0]{position:absolute;z-index:999;top:0;transition:width .3s,top .3s,transform .3s,var(--el-transition-box-shadow)}.topbar-container.fixed[data-v-fe61fce0]{position:fixed}.topbar-container.fixed.shadow[data-v-fe61fce0]{box-shadow:0 10px 10px -10px var(--g-box-shadow-color)}
