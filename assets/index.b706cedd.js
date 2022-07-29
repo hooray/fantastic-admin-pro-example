@@ -1,0 +1,11 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.netlify.app
+ * 代码仓库
+ * Gitee  https://gitee.com/hooray/fantastic-admin
+ * Github https://github.com/hooray/fantastic-admin
+ */
+    
+import{c as e,b as o,f as a,e as l,w as t,h as s,af as i,i as r,b8 as d,J as m,m as u,a2 as n,a8 as p,O as f}from"./index.9587bc3d.js";import{E as c}from"./el-drawer.f87ebc7f.js";import"./el-overlay.3a21a8d0.js";import{E as b}from"./el-dialog.56efe94f.js";import j from"./index.a4adeb03.js";import"./use-dialog.50a4d896.js";import"./event.d298a7ab.js";import"./index.7b171845.js";import"./el-loading.7b1b970a.js";import"./el-form.569642f0.js";import"./isEqual.f9b5563e.js";/* empty css                       *//* empty css                        */import"./el-form-item.2e22de35.js";import"./el-input.54ba849c.js";import"./index.be7b8a6c.js";const g=n("取 消"),y=n("确 定"),V={class:"buttons"},v=n("取 消"),x=n("确 定"),k={__name:"index",props:{...j.props,modelValue:{type:Boolean,default:!1},mode:{type:String,default:"dialog",validator:e=>["dialog","drawer"].includes(e)}},emits:["update:modelValue","success"],setup(n,{emit:k}){const _=n,{proxy:w}=f();let z=e({get:function(){return _.modelValue},set:function(e){k("update:modelValue",e)}});const C=e((()=>""==_.id?"新增管理员":"编辑管理员"));function E(){w.$refs.form.submit((()=>{k("success"),$()}))}function $(){z.value=!1}return(e,n)=>{const f=p,k=b,w=c;return o(),a("div",null,["dialog"===_.mode?(o(),l(k,{key:0,modelValue:r(z),"onUpdate:modelValue":n[0]||(n[0]=e=>d(z)?z.value=e:z=e),title:r(C),width:"600px","close-on-click-modal":!1,"append-to-body":"","destroy-on-close":""},{footer:t((()=>[s(f,{size:"large",onClick:$},{default:t((()=>[g])),_:1}),s(f,{type:"primary",size:"large",onClick:E},{default:t((()=>[y])),_:1})])),default:t((()=>[s(j,i({ref:"form"},e.$props),null,16)])),_:1},8,["modelValue","title"])):"drawer"===_.mode?(o(),l(w,{key:1,modelValue:r(z),"onUpdate:modelValue":n[1]||(n[1]=e=>d(z)?z.value=e:z=e),title:r(C),size:"600px","close-on-click-modal":!1,"destroy-on-close":""},{default:t((()=>[s(j,i({ref:"form"},e.$props),null,16),m("div",V,[s(f,{size:"large",onClick:$},{default:t((()=>[v])),_:1}),s(f,{type:"primary",size:"large",onClick:E},{default:t((()=>[x])),_:1})])])),_:1},8,["modelValue","title"])):u("v-if",!0)])}}};export{k as default};
