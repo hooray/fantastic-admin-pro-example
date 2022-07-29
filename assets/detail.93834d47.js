@@ -1,0 +1,11 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.netlify.app
+ * 代码仓库
+ * Gitee  https://gitee.com/hooray/fantastic-admin
+ * Github https://github.com/hooray/fantastic-admin
+ */
+    
+import{_ as e}from"./index.ef9246dc.js";import{d as a,v as t,E as i,a8 as r,f as o,h as s,w as l,bN as m,bO as p,bP as d,b as n,a2 as f,Q as u,O as j}from"./index.252503d3.js";import b from"./index.d20104ef.js";import"./el-loading.15847d8e.js";import"./el-form.0205599e.js";import"./isEqual.30ea9237.js";import"./el-card.f8ad1c19.js";/* empty css                       *//* empty css                        */import"./index.a0905797.js";import"./el-input.dc2b6950.js";import"./event.d298a7ab.js";/* empty css               */import"./el-checkbox.e9b15308.js";/* empty css                 */import"./index.8fdffc68.js";import"./aria.288df782.js";import"./arrays.21a21ad5.js";import"./_baseFlatten.61e5e347.js";import"./index.52fda3a3.js";import"./index.a7e8837e.js";import"./validator.52792d17.js";import"./el-form-item.2e22de35.js";import"./index.9e6661f4.js";import"./el-dialog.32934006.js";import"./el-overlay.4ed61f02.js";import"./use-dialog.2b262b8e.js";import"./index.c0a7b230.js";/* empty css                          */import"./el-table-column.e5cb518b.js";import"./el-tooltip.89296c46.js";const c=f(" 返回 "),x=f("提交"),g=f("取消"),v=a({name:"PagesExampleDeliveryDetail"}),y=Object.assign(v,{setup(a){const{proxy:m}=j(),f=t();function v(){m.$refs.form.submit((()=>{m.$eventBus.emit("get-data-list"),_()}))}function y(){_()}function _(){f.tabbar.enable&&!f.tabbar.mergeTabs?m.$tabbar.close({name:"pagesExampleShopDeliveryList"}):m.$router.push({name:"pagesExampleShopDeliveryList"})}return(a,t)=>{const m=u,f=i,j=r,h=p,E=d,$=e;return n(),o("div",null,[s(h,{title:"pagesExampleShopDeliveryCreate"==a.$route.name?"新增运费模版":"编辑运费模版"},{default:l((()=>[s(j,{size:"default",round:"",onClick:_},{icon:l((()=>[s(f,null,{default:l((()=>[s(m,{name:"i-ep:arrow-left"})])),_:1})])),default:l((()=>[c])),_:1})])),_:1},8,["title"]),s(E,null,{default:l((()=>[s(b,{id:a.$route.params.id,ref:"form"},null,8,["id"])])),_:1}),s($,null,{default:l((()=>[s(j,{type:"primary",size:"large",onClick:v},{default:l((()=>[x])),_:1}),s(j,{size:"large",onClick:y},{default:l((()=>[g])),_:1})])),_:1})])}}});"function"==typeof m&&m(y);export{y as default};
