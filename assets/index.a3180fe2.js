@@ -1,0 +1,11 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.netlify.app
+ * 代码仓库
+ * Gitee  https://gitee.com/hooray/fantastic-admin
+ * Github https://github.com/hooray/fantastic-admin
+ */
+    
+import{r as e,c as o,b as a,f as l,e as t,w as s,h as d,ae as i,i as r,ba as m,G as u,m as n,Y as f,a7 as p}from"./index.503ec71c.js";import{E as c}from"./el-drawer.6a58828c.js";import"./el-overlay.34fe3e22.js";import{E as y}from"./el-dialog.f950d827.js";import j from"./index.4a3b1e03.js";import"./use-dialog.2662d915.js";import"./event.d298a7ab.js";import"./index.8fde0481.js";import"./el-loading.fc1c50fe.js";import"./el-form.b1df7afc.js";import"./isEqual.add373df.js";import"./el-form-item.2e22de35.js";import"./el-input.546a1988.js";const g=f("取 消"),k=f("确 定"),v={class:"buttons"},V=f("取 消"),_=f("确 定"),b={__name:"index",props:{...j.props,modelValue:{type:Boolean,default:!1},mode:{type:String,default:"dialog",validator:e=>["dialog","drawer"].includes(e)}},emits:["update:modelValue","success"],setup(f,{emit:b}){const x=f,w=e();let z=o({get:function(){return x.modelValue},set:function(e){b("update:modelValue",e)}});const C=o((()=>""==x.id?"新增职位":"编辑职位"));function E(){w.value.submit((()=>{b("success"),h()}))}function h(){z.value=!1}return(e,o)=>{const f=p,b=y,R=c;return a(),l("div",null,["dialog"===x.mode?(a(),t(b,{key:0,modelValue:r(z),"onUpdate:modelValue":o[0]||(o[0]=e=>m(z)?z.value=e:z=e),title:r(C),width:"600px","close-on-click-modal":!1,"append-to-body":"","destroy-on-close":""},{footer:s((()=>[d(f,{size:"large",onClick:h},{default:s((()=>[g])),_:1}),d(f,{type:"primary",size:"large",onClick:E},{default:s((()=>[k])),_:1})])),default:s((()=>[d(j,i({ref_key:"formRef",ref:w},e.$props),null,16)])),_:1},8,["modelValue","title"])):"drawer"===x.mode?(a(),t(R,{key:1,modelValue:r(z),"onUpdate:modelValue":o[1]||(o[1]=e=>m(z)?z.value=e:z=e),title:r(C),size:"600px","close-on-click-modal":!1,"destroy-on-close":""},{default:s((()=>[d(j,i({ref_key:"formRef",ref:w},e.$props),null,16),u("div",v,[d(f,{size:"large",onClick:h},{default:s((()=>[V])),_:1}),d(f,{type:"primary",size:"large",onClick:E},{default:s((()=>[_])),_:1})])])),_:1},8,["modelValue","title"])):n("v-if",!0)])}}};export{b as default};

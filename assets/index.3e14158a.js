@@ -1,0 +1,11 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.netlify.app
+ * 代码仓库
+ * Gitee  https://gitee.com/hooray/fantastic-admin
+ * Github https://github.com/hooray/fantastic-admin
+ */
+    
+import{r as e,c as o,b as l,f as a,e as t,w as s,h as d,ae as i,i as r,ba as m,m as u,Y as n,a7 as f}from"./index.503ec71c.js";import{E as p}from"./el-drawer.6a58828c.js";import"./el-overlay.34fe3e22.js";import{E as c}from"./el-dialog.f950d827.js";import y from"./index.9cc6e876.js";import"./use-dialog.2662d915.js";import"./event.d298a7ab.js";import"./index.8fde0481.js";import"./el-loading.fc1c50fe.js";import"./el-form.b1df7afc.js";import"./isEqual.add373df.js";import"./el-form-item.2e22de35.js";import"./el-input.546a1988.js";const j=n("取 消"),g=n("确 定"),k=n("取 消"),V=n("确 定"),_={__name:"index",props:{...y.props,modelValue:{type:Boolean,default:!1},mode:{type:String,default:"dialog",validator:e=>["dialog","drawer"].includes(e)}},emits:["update:modelValue","success"],setup(n,{emit:_}){const v=n,x=e();let b=o({get:function(){return v.modelValue},set:function(e){_("update:modelValue",e)}});const w=o((()=>""==v.id?"新增":"编辑"));function z(){x.value.submit((()=>{_("success"),C()}))}function C(){b.value=!1}return(e,o)=>{const n=f,_=c,E=p;return l(),a("div",null,["dialog"===v.mode?(l(),t(_,{key:0,modelValue:r(b),"onUpdate:modelValue":o[0]||(o[0]=e=>m(b)?b.value=e:b=e),title:r(w),width:"600px","close-on-click-modal":!1,"append-to-body":"","destroy-on-close":""},{footer:s((()=>[d(n,{size:"large",onClick:C},{default:s((()=>[j])),_:1}),d(n,{type:"primary",size:"large",onClick:z},{default:s((()=>[g])),_:1})])),default:s((()=>[d(y,i({ref_key:"formRef",ref:x},e.$props),null,16)])),_:1},8,["modelValue","title"])):"drawer"===v.mode?(l(),t(E,{key:1,modelValue:r(b),"onUpdate:modelValue":o[1]||(o[1]=e=>m(b)?b.value=e:b=e),title:r(w),size:"600px","close-on-click-modal":!1,"destroy-on-close":""},{footer:s((()=>[d(n,{size:"large",onClick:C},{default:s((()=>[k])),_:1}),d(n,{type:"primary",size:"large",onClick:z},{default:s((()=>[V])),_:1})])),default:s((()=>[d(y,i({ref_key:"formRef",ref:x},e.$props),null,16)])),_:1},8,["modelValue","title"])):u("v-if",!0)])}}};export{_ as default};

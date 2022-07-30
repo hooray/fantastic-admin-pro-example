@@ -1,0 +1,11 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.netlify.app
+ * 代码仓库
+ * Gitee  https://gitee.com/hooray/fantastic-admin
+ * Github https://github.com/hooray/fantastic-admin
+ */
+    
+import{r as e,c as o,b as a,f as l,e as t,w as s,h as d,ae as i,i as r,ba as m,G as u,m as n,Y as p,a7 as f}from"./index.503ec71c.js";import{E as c}from"./el-drawer.6a58828c.js";import"./el-overlay.34fe3e22.js";import{E as j}from"./el-dialog.f950d827.js";import y from"./index.3d5bc044.js";import"./use-dialog.2662d915.js";import"./event.d298a7ab.js";import"./index.8fde0481.js";import"./el-loading.fc1c50fe.js";import"./el-form.b1df7afc.js";import"./isEqual.add373df.js";/* empty css                       *//* empty css                        */import"./el-form-item.2e22de35.js";import"./el-input.546a1988.js";import"./index.2ef741fb.js";const g=p("取 消"),b=p("确 定"),k={class:"buttons"},v=p("取 消"),V=p("确 定"),_={__name:"index",props:{...y.props,modelValue:{type:Boolean,default:!1},mode:{type:String,default:"dialog",validator:e=>["dialog","drawer"].includes(e)}},emits:["update:modelValue","success"],setup(p,{emit:_}){const x=p,w=e();let z=o({get:function(){return x.modelValue},set:function(e){_("update:modelValue",e)}});const C=o((()=>""==x.id?"新增管理员":"编辑管理员"));function E(){w.value.submit((()=>{_("success"),h()}))}function h(){z.value=!1}return(e,o)=>{const p=f,_=j,R=c;return a(),l("div",null,["dialog"===x.mode?(a(),t(_,{key:0,modelValue:r(z),"onUpdate:modelValue":o[0]||(o[0]=e=>m(z)?z.value=e:z=e),title:r(C),width:"600px","close-on-click-modal":!1,"append-to-body":"","destroy-on-close":""},{footer:s((()=>[d(p,{size:"large",onClick:h},{default:s((()=>[g])),_:1}),d(p,{type:"primary",size:"large",onClick:E},{default:s((()=>[b])),_:1})])),default:s((()=>[d(y,i({ref_key:"formRef",ref:w},e.$props),null,16)])),_:1},8,["modelValue","title"])):"drawer"===x.mode?(a(),t(R,{key:1,modelValue:r(z),"onUpdate:modelValue":o[1]||(o[1]=e=>m(z)?z.value=e:z=e),title:r(C),size:"600px","close-on-click-modal":!1,"destroy-on-close":""},{default:s((()=>[d(y,i({ref_key:"formRef",ref:w},e.$props),null,16),u("div",k,[d(p,{size:"large",onClick:h},{default:s((()=>[v])),_:1}),d(p,{type:"primary",size:"large",onClick:E},{default:s((()=>[V])),_:1})])])),_:1},8,["modelValue","title"])):n("v-if",!0)])}}};export{_ as default};
